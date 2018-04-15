@@ -1,0 +1,61 @@
+<article class="highlightslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <p>"<%= pageID %>"</p> -->
+      <% highlights.forEach(function(item) { %>
+        <div class="<% if (pageID == 'home') { %>col-sm-2 col-md-4 col-lg-3 text-center<% } else { %>col-md-8 <% } %>">
+          <h3 class="highlightslist-title"><%= item.site %></h3>
+          <h5 class="highlightslist-name">with <a href="/highlights/<%= item.shortname %>"><%= item.place %></a></h5>
+          <p class="highlightslist-info">
+            <a href="/highlights/<%= item.id %>">
+
+              <% if (pageID == 'home') { %>
+                <img class="highlightslist-img img-responsive rounded-circle" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300"></a>
+                <% } %>
+
+                <% if (pageID == 'highlightList') { %>
+                  <img class="highlightslist-img rounded-circle pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300"></a>
+                  <iframe align="right" src="<%- item.videoEmbed %>"></iframe>
+                  <% } %>
+                </a>
+
+                <% if (pageID == 'highlightDetail') { %>
+                  <img class="highlightslist-img img-responsive pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="600"></a>
+                  <% } %>
+                </a>
+
+                <% if (pageID !== 'home') { %>
+                  <% if (pageID == 'highlightList') { %>
+                    <p style="padding-left: 100px"><%= item.category %></p>
+                    <% } else { %>
+                      <p><%- item.info %></p>
+
+                      <div style="width: 20%; height: 30%; float: left;">
+                        <iframe src="<%- item.videoEmbed %>"></iframe>
+                      </div>
+
+                      <div id="map" style="width: 50%; height: 14%; float: right;"></div>
+                      <script>
+                      function initMap() {
+                        var uluru = {lat: 20.593684, lng: 78.96288};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                          zoom:3,
+                          center: uluru
+                        });
+
+                        var marker = new google.maps.Marker({
+                          position: {lat:<%- item.lat %>,lng:<%- item.long %>},
+                          map: map
+                        });
+                      }
+                      </script>
+                      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3XWQiBG-qwglfx6lk5cbe0IFgss1f4_E&callback=initMap"
+                      async defer></script>
+                      <% } %>
+                      <% } %>
+                    </p>
+                  </div>
+                  <%  }); %>
+                </div><!-- row -->
+              </div><!-- container -->
+            </article>
