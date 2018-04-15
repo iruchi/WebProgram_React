@@ -1,24 +1,95 @@
-{
-  "speakers": [{
-    "title" : "Art in Full Bloom",
-    "name": "Lorenzo Garcia",
-    "shortname" : "Lorenzo_Garcia",
-    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-    "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
-  },{
-    "title" : "Deep Sea Wonders",
-    "name": "Hilary Goldywynn Post",
-    "shortname" : "Hillary_Goldwynn",
-    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
-    "description": "<p>Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new painters, including the Divinity Circle, the International Painter's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features paintings that contain only water images including waves, deep sea, and river.</p><p>An avid water sports participant, Hillary understands the water in many ways in which others do not, or may not ever have the opportunity. Her goal in creating the CAC exhibit was to share with others the beauty, power, and flow of natural bodies of water throughout the world. In addition to the display, Hilary also hosts a session on Tuesday called Deep Sea Wonders, which combines her love of deep sea diving and snorkeling, with instruction for capturing the beauty of underwater explorations on canvas.</p>",
-    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
-  },{
-    "title" : "The Art of Abstract",
-    "name": "Riley Rudolph Rewington",
-    "shortname" : "Riley_Rewington",
-    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
-    "description": "<p>Riley started out as musician and street performance artist, and now blends painting and photography with audio, video, and computer multimedia to create what he calls 'Music and Multimedia Artworks.' Riley's innovations in using multimedia to express art have created a youth culture movement in his town of Portland, in which he remains at the forefront. In his role as the founder of the MMA art form, Riley has become an inspiration to many up and coming artists. However, the part Riley insists is most important to him, is that he's helped many troubled youth take control of their lives, and create their own unique, positive futures. Seeing kids he's mentored graduate from high school and enroll in college, gives art the purpose that Riley so craves.</p><p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the 'Art of Abstract' during Thursday's schedule.</p>",
-    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
-  }]
+{"data":
+  {
+    "bgImage": "https://thelittlewashhouse.files.wordpress.com/2015/02/appenzeller-alpaufzug-687d32ee-f88e-4cdd-8395-8c4ed2e4e28f.jpg",
+    "highlights":[
+      {"id":"1",
+        "site":"Mumbai",
+        "place": "Gateway of India",
+        "category":"City",
+        "info": "Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.",
+        "lat": "18.921984",
+        "long": "72.834654",
+        "image": "https://qrius.com/wp-content/uploads/2018/01/mumbai-1370023_960_720.jpg",
+        "video": "https://www.youtube.com/watch?v=hXtvxvJsGGs",
+        "videoEmbed":"https://www.youtube.com/embed/hXtvxvJsGGs"
+      },
+      {"id":"2",
+        "site":"Agra",
+        "place": "Taj Mahal",
+        "category":"Monument",
+        "info": "The Taj Mahal is an enormous mausoleum complex commissioned in 1632 by the Mughal emperor Shah Jahan to house the remains of his beloved wife. Constructed over a 20-year period on the southern bank of the Yamuna River in Agra, India, the famed complex is one of the most outstanding examples of Mughal architecture, which combined Indian, Persian and Islamic influences.",
+        "lat": "27.175015",
+        "long": "78.042155",
+        "image": "https://www.telegraph.co.uk/content/dam/Travel/partnerTourImages/NewmarketHolidays/IndiaTigersandtheTajMahal/RESTRICTED-leadAsset-IndiaTigersandtheTajMahal-xlarge.png",
+        "video": "https://www.youtube.com/watch?v=2_K6eh7Tf_g",
+        "videoEmbed": "https://www.youtube.com/embed/2_K6eh7Tf_g"
+      },
+      {"id":"3",
+        "site":"Jaipur",
+        "place": "Amber Fort",
+        "category":"Monument",
+        "info": "Amer Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres located 11 kilometres from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal tourist attraction in Jaipur.",
+        "lat": "26.985487",
+        "long": "75.851345",
+        "image": "https://d1ljaggyrdca1l.cloudfront.net/wp-content/uploads/2017/04/amber-fort-jaipur-1600x900.jpg",
+        "video": "https://www.youtube.com/watch?v=GMCqTeBPVoo",
+        "videoEmbed": "https://www.youtube.com/embed/GMCqTeBPVoo"
+      },
+      {"id":"4",
+        "site":"Sikkim",
+        "place": "Darjeeling",
+        "category":"City",
+        "info": "Sikkim is a state in northeast India, bordered by Bhutan, Tibet and Nepal. Part of the Himalayas, the area has a dramatic landscape that includes India’s highest mountain, 8,586m Kangchenjunga. Sikkim is also home to glaciers, alpine meadows and thousands of varieties of wildflowers. Steep paths lead to hilltop Buddhist monasteries such as Pemayangtse, which dates to the early 1700s.",
+        "lat": "27.532972",
+        "long": "88.512218",
+        "image": "https://iloveasia.travel/images/travel/travel_cover/37bc85bc38b7100c4aa3e38c0246ff98.jpg",
+        "video": "https://www.youtube.com/watch?v=g14UskIF2lU",
+        "videoEmbed": "https://www.youtube.com/embed/g14UskIF2lU"
+      },
+      {"id":"5",
+        "site":"Kashmir",
+        "place": "Dal Lake",
+        "category":"Lake",
+        "info": "Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir. The urban lake, which is the second largest in the state, is integral to tourism and recreation in Kashmir and is named the Jewel in the crown of Kashmir or Srinagar's Jewel.",
+        "lat": "34.110586",
+        "long": "74.868257",
+        "image": "https://seoimgak.mmtcdn.com/blog/sites/default/files/bollywood-and-kashmir-dal-lakee.jpg",
+        "video": "https://www.youtube.com/watch?v=vCOGKDx0Zb8",
+        "videoEmbed": "https://www.youtube.com/embed/vCOGKDx0Zb8"
+      },
+      {"id":"6",
+        "site":"Chennai",
+        "place": "Meenakshi Temple",
+        "category":"Temple",
+        "info": "Meenakshi realized that Shiva was her destined husband and She was an incarnation of Goddess Parvati. Both of them returned to Madurai and the king arranged the coronation ceremony of his daughter followed by Her marriage with Shiva.",
+        "lat": "13.068871",
+        "long": "80.267165",
+        "image": "http://thrillingtravel.in/wp-content/uploads/2018/02/The-impressive-Gopuram-of-Madurai-Meenakshi-temple.jpg",
+        "video": "https://www.youtube.com/watch?v=3zIeXcaJUgw",
+        "videoEmbed": "https://www.youtube.com/embed/3zIeXcaJUgw"
+      },
+      {"id":"7",
+        "site":"Ladakh",
+        "place": "Leh",
+        "category":"Mountains",
+        "info": "Ladakh is a region in the Indian state of Jammu and Kashmir that currently extends from the Kunlun mountain range to the main Great Himalayas to the south, inhabited by people of Indo-Aryan and Tibetan descent.",
+        "lat": "34.165315",
+        "long": "77.583845",
+        "image": "https://www.club7holidays.com/wp-content/uploads/photo-gallery/charismatic-leh-ladakh-tour-packages-1%20(1).jpg",
+        "video": "https://www.youtube.com/watch?v=AK-MUzWdpjU",
+        "videoEmbed": "https://www.youtube.com/embed/AK-MUzWdpjU"
+      },
+      {"id":"8",
+        "site":"Andaman",
+        "place": "Island",
+        "category":"Lake",
+        "info": "The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites. Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.",
+        "lat": "11.740087",
+        "long": "92.658640",
+        "image": "http://indiatravelking.com/wp-content/uploads/2016/11/Andaman-Tour.jpg",
+        "video": "https://www.youtube.com/watch?v=LDttS3jfMBQ",
+        "videoEmbed": "https://www.youtube.com/embed/LDttS3jfMBQ"
+      }
+    ]
+  }
 }
